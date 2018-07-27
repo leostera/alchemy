@@ -23,7 +23,7 @@ import curry from 'ramda/src/curry';
  * ever having to open it up and modify it.
  */
 
-//		contramap : (a -> b) -> (b -> c) -> a -> c
+//    contramap : (a -> b) -> (b -> c) -> a -> c
 const contramap = curry((f, g, x) => g(f(x)));
 
 export default contramap;
