@@ -1,0 +1,13 @@
+{
+  "name": "alchemy",
+  "version": "0.0.1",
+  "description": "A Functional Higher-Order Components Library",
+  "main": "index.js",
+  "repository": "https://github.com/ostera/alchemy",
+  "author": "Leandro Ostera <leandro@ostera.io>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
